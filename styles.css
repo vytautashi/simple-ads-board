@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    color: #333;
+}
+
+a {
+    color: rgb(0, 101, 253);
+}
+
+main {
+    background-color: white;
+    margin: 20px 20px 0px 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+h2 {
+    font-size: large;
+}
+
+h1, h4, main p {
+    margin: 0px;
+}
+
+main div {
+    padding: 20px;
+    border: 1px solid #999;
+}
+
+main div:hover {
+    background-color: #eee;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+nav .active {
+    background-color: #09a;
+}
+
+p {
+    text-align: justify;
+    /* text-justify: inter-word; */
+}
+
+time {
+    font-weight: normal;
+    color: #888;
+}
+
+.err {
+    color: red;
+}
+
+.subnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(250, 250, 250);
+    border-bottom: 1px solid #ddd;
+}
+
+.subnav li {
+    float: left;
+}
+
+.subnav li a {
+    display: block;
+    text-align: center;
+    padding: 4px 16px;
+    text-decoration: none;
+}
+
+.subnav li a:hover {
+    text-decoration: underline;
+}
+
+.subnav ul li .active {
+    background-color: rgb(240, 240, 240);
+}

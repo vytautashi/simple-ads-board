@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteRule ^ad/.*-([0-9]+)$ /ad/$1.html [L]
+Redirect /inc/ /404.html
+RewriteRule ^about$ about.html
+RewriteRule ^register$ register.php
+RewriteRule ^login$ login.php
+RewriteRule ^my-ads$ my-ads.php
+RewriteRule ^post-ad$ post-ad.php
+RewriteRule ^my-ads/edit$ edit.php
+RewriteRule ^my-ads/delete$ delete.php
+RewriteRule ^logout$ logout.php
+
+ErrorDocument 404 /404.html
